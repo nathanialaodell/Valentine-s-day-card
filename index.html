@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+        <!-- link .css file -->
+        <link href = "index.css" rel = "stylesheet">
+        <!-- for card opening animations -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <title>Virtual Valentine's Day Card</title>
+    </head>
+    <body>
+        <!-- faux verification for fun -->
+        <div id="bebe-verify">
+            <div class="window">
+                <span class="title">Are you Anna Wilmoth? 🕵️</span>
+                <button id="yes" class="button bebe-gate-pass">Literally yes...</button>
+                <button id="no" class="button bebe-gate-fail">I wish!</button>
+            </div>
+        </div>
+
+        <!-- envelope wrapper -->
+        <div class = "envelope-wrapper">
+            <!-- want it to start as a closed envelope -->
+            <div id = "envelope", class = "close"> 
+            <div class = "front flap"></div>
+            <div class = "front pocket"></div>
+            <div class = "letter">
+                <p class = "word line1">Insert greeting here</p>
+                <p class = "word line2">Insert block of text here and here and here and here and here
+                    and enter for new line
+                </p>
+                <p class = "word line3">Regards here,</p>
+                <p class = "word line4">Name here</p>
+                <!-- pictures! -->
+                <img src="images\Real1.jpg" class="popout-image image1" alt="Image 1">
+                <img src="images\Real2.jpg" class="popout-image image2" alt="Image 2">
+                <img src="images\Real3.jpg" class="popout-image image3" alt="Image 3">
+                <img src="images\Real4.jpg" class="popout-image image4" alt="Image 4">
+
+        </div>
+
+        <!-- for static images, keep them outside of the above envelope-wrapper class -->
+        <img src="images\DanielLarsonLonging.jpg" class="static-image image5" alt="Image 5">
+        <div class = "hearts">
+            <div class = "heart a1"></div>
+            <div class = "heart a2"></div>
+            <div class = "heart a3"></div>
+            <div class = "heart a4"></div>
+        </div>
+        </div>
+    </div>
+    <div class = "reset">
+        <button id = "open">Let me see inside! 😲</button>
+        <button id = "reset">Put the card back!</button>
+    </div>
+    <h1 class = "header">IT'S BEBE DAY! 😽😽😽</h1>
+    <!-- linking js script -->
+    <script src = "index.js"></script>
+    </body>
+</html>
