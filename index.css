@@ -216,8 +216,13 @@ body{
 }
 
 .image5 {
-    top: 400px;
-    right: -250px;
+    top: 100px;
+    right: -275px;
+}
+
+.image6 {
+    top: 100px;
+    left: -275px;
 }
 
 .open .popout-image {
