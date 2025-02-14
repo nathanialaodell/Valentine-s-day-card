@@ -133,8 +133,8 @@ body{
     left: 10%;
     width: 80%;
     height: 14%;
-    font-size: 16px;
-    font-family: serif;
+    font-size: 14.5px;
+    font-family: "Times New Roman", Times, serif;
     color: black;
 }
 
@@ -146,11 +146,11 @@ body{
     text-align: left;
 }
 .line3{
-    top: 80%;
+    top: 82%;
     text-align: right;
 }
 .line4{
-    top: 87%;
+    top: 89%;
     text-align: right;
 }
 
